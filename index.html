@@ -1,0 +1,182 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> BYCOMP </title>
+</head>
+
+<body>
+
+    <section id="tela1">
+
+        <div class="circle" id="circulo"> </div>
+        <header>
+            <a class="logo"> <img src="img/logo.png" alt="" class="imagemLOGO"> bycomp </a>
+            <ul class="cabecalho">
+                <li> <a href="#"> Home </a> </li>
+                <li> <a href="#"> Novidades </a> </li>
+                <li> <a href="#"> Contato </a> </li>
+                <li> <a href="#"> Sobre </a> </li>
+
+            </ul>
+        </header>
+
+        <div class="container">
+            <div class="textos">
+                <h2 id="frase" style="margin-bottom: -10%" > Faça suas <span> compras </span> de forma <span> inteligente </span> </h2>
+
+                <p id="titulo" > Prático e Fácil: com a BYCOMP, otimizamos suas <br> pesquisas para gastar menos na hora de realizar<br> suas
+                    compras. </p>
+
+                <button class="saibaMais" onclick="botaoMudarTela()" id="botao"> Benefícios </button>
+            </div>
+
+            <div class="imagens" >
+                <img src="img/celular1.png" alt="">
+            </div>
+        </div>
+
+       
+
+    </section>
+
+    <div class="barraPretaComeco" >
+       
+    <div class="infBarraPreta">
+     
+        <h2 id="texto2">Ache o mercado mais <span>próximo</span>  de você e <br> compre pela<span> comparação</span></h2>
+        <br><br>
+        <p id="Duvidas">Dúvidas? <button id="BTduvida" onclick="Duvida()">Clique Aqui.</button></p>
+        
+    </div>
+    
+    <img src="img/fotoCelular.png" style="height:370px ; width: 630px; margin-top: 2%; margin-right: 10%;">
+
+
+    </div>
+   
+    <div id="particles-js">
+        
+    
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    <div  class="novidades">
+    <p id="novidade"><b>Novidades</b> </p>
+    </div>
+    <br>
+    <div class="BlocosNovidades">
+        <div class="blocoCinza" > 
+
+            <img src="img/logoCheck.png" id="logo" style="width:30px ; ">
+            <p id="texto">Faça uma lista de compras no nosso App e compare os preços com outros mercados.</p>
+           
+            <button id="btSaibaMais" style="margin-top:30% ;">Saiba mais</button>
+       
+
+        </div> 
+
+        <div class="blocoCinza" > 
+            <img src="img/logoEngrenagem.png" id="logo">
+            <p id="texto">Encontre as promoções mais próximas de você.</p>
+          
+            <button id="btSaibaMais" style="margin-top:38% ;">Saiba mais</button>
+           
+
+        </div>
+
+        <div class="blocoCinza" > 
+            <img src="img/avaliacoes.png" height="40px" width="35px"  id="logo">
+            <p id="texto">Compre com qualidade e segurança, escolhendo a partir das avaliações feitas por outros usuários.</p>
+        
+            <button id="btSaibaMais"style="margin-top:21% ;" >Saiba mais</button>
+
+        </div>
+    
+    </div>
+<div class="divisaoCinza">
+
+  <div style="display: inline-block; margin-top: 5%;margin-left: 10%;">
+        <p id="Sugestao" style="margin-left: 20%;"> Dúvidas? Sugestões? </p>
+    
+    <br>
+   
+    <div style="display: inline-block; height: 310px; width: 100%;">
+        <div class="espaçoCliente"> 
+            <div class="dadosCliente">
+                <p style="color: white; margin-top: 10%;"> Nome Completo</p>
+                <input type="text" name="Nome" id="nomeCompleto" placeholder="Nome completo" style="margin-top: 5%; width: 85%;">
+                <br>
+                <p style="color: white; margin-top: 20%;">Digite aqui o seu melhor e-mail</p>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" style="margin-top: 3%; width: 85%;">
+                <button id="enviar" > Enviar</button>
+            </div>
+            <div class="mensagem">
+                <p style="color: white;margin-top: 8%;"> Mensagem</p>
+                <input type="text" name="Mensagem" id="espaçoMensagem"  style="margin-top: 3%; width: 300px; height: 150px;">
+    
+                 </div>
+    
+        </div>
+   
+</div>
+    <br> <br>
+   
+</div>
+</div>
+
+    
+
+    
+    <br><br>
+    <div class="comeceja">
+        <p style="margin-left: 10%;"> Comece Agora</p>
+    </div>
+    <p id="baixe"> Baixe nosso App</p>
+    <br>
+    <P id="sobreApp">Acompanhe as novidades de pertinho e interaja com outros usuários.
+    Aproveite nossos benefícios<br> baixando o
+    App gratuitamente na App Store ou Google Play </P>
+
+    <button id="btPlataforma">
+        <img src="img/apple.png" id="baixarLogo" alt="" >
+        <p style="margin-top:5% ;" >Download on the <br> <span>App Store</span> </p>
+    </button>
+    
+    <button id="btPlataforma" style="margin-left: 5%;">
+        <img src="img/store (1).png" id="baixarLogo" alt="" >
+        <p style="margin-top:5% ;" >Download on the <br> <span>Google Play</span> </p>
+    </button>
+
+
+<div class="barraPreta"></div>
+<div class="rodape">
+    <div class="infRodape">
+        <p style="margin-top: 10%;"> <span> Sobre nós</span> </p>
+        <p style="margin-top: 5%;"> Nosso objetivo é facilitar sua busca pelo melhor <br> local 
+            na hora de fazer compras de mercado, <br>
+            trazendo os melhores lugares para você.</p>
+         
+
+    </div>
+
+    <div class="infRodape" style="margin-left: 3%;">
+        <p style="margin-top: 10%;">Siga-nos nas Redes Sociais</p>
+        <div class="icones" style="margin-top: 5%;">
+            <img src="img/instagram 1.png" alt="">  <img src="img/twitter 1.png" alt="">  <img src="img/facebook (1) 1.png" alt="">
+             </div>
+         <p style="margin-top: 5%;"> Quer receber atualizações por e-mail? Envie aqui.</p>    
+         
+
+    </div>
+
+
+</div>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>

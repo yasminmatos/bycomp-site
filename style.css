@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins', serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 1500vw;
+
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    z-index: 10;
+    
+ 
+    
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    padding: 0 340px;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #213283;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a .imagemLOGO{
+    padding-right: 20px;
+}
+
+header ul li{
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #A5A3A3;
+
+}
+
+li a:hover{
+    color: #213283;
+    transition: 0.3s;
+}
+
+h2 span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.container .imagens{
+    position: relative;
+    max-width: 600%;
+}
+
+.textos h2{
+    bottom: 100px;
+    position: relative;
+    max-width: 100%;
+    font-weight: 300;
+    font-size: 40px;
+    max-width: 450px;
+    left: 150px;
+}
+
+.container p{
+    position: relative;
+    color: #A5A3A3;
+    font-size: 18px;
+    left: 150px;
+}
+
+.saibaMais{
+    margin-top: 30px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    background-color: #213283;
+    font-size: 16px;
+    cursor:pointer;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+.circle{
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    height: 89.7%;
+    background: #F24C00;
+    clip-path: circle(800px at right 800px);
+
+
+   
+}
+
+.barraPretaComeco{
+   background-color: 282526;
+     width: 100%;
+     height: 350px;
+     align-items: center;
+     display: inline-flex;
+     
+    }
+
+
+#texto2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.infBarraPreta{
+    width: 50%;
+    height: 200px;
+    margin-left: 13%;
+  
+   
+    
+    
+}
+#BTduvida{
+    background-color: 213283;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-color: #213283;
+    cursor:pointer;
+    
+}
+#Duvidas{
+    color: white;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#novidade{
+    color: F24C00;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+#Sugestao{
+    color: 485696;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    
+    
+}
+.novidades{
+    width: 30px;
+    height: 50px;
+    margin-left: 19%;
+    margin-top: 5%;
+
+}
+.BlocosNovidades{
+    width:100%;
+    display: inline-flex;
+    padding-left: 15%;
+    margin-top: 4%;
+   
+    
+}
+
+.blocoCinza{
+    height: 280px;
+    width: 310px;
+    background-color: EBE9E9;
+    margin-left: 5%;
+    border-radius: 10px;
+    align-items: center;
+    z-index: 100;
+   
+   
+}
+
+
+#btSaibaMais{
+    width: 310px;
+    height: 40px;
+    background-color: #282526;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+
+.espaçoCliente{
+    height: 310px;
+    width: 710px;
+    background-color:#282526;
+    margin-left: 20%;
+    border-radius: 2%;
+    border-top: 25%;
+    display: inline-flex;
+    z-index: 200;
+  
+}
+
+.dadosCliente{
+    height:200px ;
+    width: 355px;
+    border-left: 20px;
+    display:block;
+    padding-left: 8%;
+
+}
+
+.mensagem{
+    height:200px ;
+    width: 355px;
+}
+#enviar{
+   color: white; 
+   background-color: #213283;
+   border-color:213283 ;
+   height: 30px;
+   width: 100px;
+   margin-left: 167%;
+   border-radius: 5px;
+   margin-top: 10%;
+   cursor:pointer;
+}
+#logo{
+    margin-left:45% ;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    height:40px;
+    width:35px ; 
+}
+
+#texto{
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+.comeceJa{
+    height: 30px;
+    width: 150px;
+    color: 213283;
+    background-color: BAC3E9;
+    border-radius: 20px;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+#baixe{
+color: 213283;
+font-size: 30px;
+font-family: 'Poppins', sans-serif;
+width: 1000px;
+margin-top: 3%;
+margin-left: 44%;
+}
+
+#sobreApp{
+    color: 999898;
+    margin-left: 2%;
+    text-align: center;
+
+}
+
+#btPlataforma{
+    color: #FFFFFF;
+    background-color: black;
+    height: 70px;
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 38%;
+    display: inline-flex;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    cursor:pointer;
+
+}
+#baixarLogo{
+   height:50px ;
+   width:50px;
+   margin-top:5% ;
+   margin-left: 3%;
+   margin-right: 1%;
+}
+
+.barraPreta{
+
+    height: 20px;
+    width: 100%;
+    background-color: #282526;
+    margin-top: 40px;
+}
+
+.rodape{
+background-color: #F24C00;
+height: 300px;
+width: 100%;
+display: inline-flex;
+}
+
+.infRodape{
+    display: inline-block;
+    width: 30%;
+    height:300px ;
+    color: #FFFFFF;
+    margin-left: 25%;
+}
+
+#triangulo-para-esquerda {
+    width: 50px; 
+    height: 30px; 
+    border-top: 190px solid transparent;
+    border-bottom: 190px solid transparent; 
+    border-right:190px solid #F24C00; 
+    margin-left: 33%;
+   
+  }
+
+  #triangulo-para-direita {
+    width: 50px; 
+    height: 30px; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #F24C00;
+  }
+
+  #particles-js{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  
+  
+  }
+  .particles-js-canvas-el{
+    z-index: 100;
+    position:absolute;
+    height: 100%;
+  }
+
+  .divisaoCinza{
+    height: 60%;
+    width: 100%;
+    background-color: #dedede;
+    margin-top: 350px;
+    position: relative;
+    z-index: 100;
+    
+
+  }
